@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    background-color: #343739;
+}
+
+.topo{
+    background-color: #0abab5;
+}
+.topo img {
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+.menu{
+    float: right;
+    margin: 30px;
+    
+}
+.indice{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.indice:hover{
+    transition: 2s;
+    background-color: white;
+}
+#conteudo{
+    background: #343739;
+    color: white;
+    
+}
+.complemento{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#direito{
+    background: #0abab5;
+    margin-top: 100px;
+    text-align: center;
+}
+#assinatura{
+    background: black;
+    color: white;
+}
+.apresentacao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.produtos{
+    background: #343739;
+    margin: 10px;
+    height: 580px;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    
+}
+.produtos-cat{
+    margin-left: -50px;
+    background: #343739;
+    width: 900px;
+    color: white;
+    
+}
+.produtos1{
+    font-size: 120px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nomes{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.descricao{
+    background-color: #949595;
+    border-radius: 3px;
+    font-family:'Courier New', Courier, monospace;
+    height: 180px;
+    font-size: 15px;
+    border-top: 5px solid #0abab5;
+}
+.descricao-hist{
+    background-color: #949595;
+    border-radius: 3px;
+    font-family:'Courier New', Courier, monospace;
+    height: 450px;
+    font-size: 15px;
+    border-top: 5px solid #0abab5;
+}
+.produtos img:hover{
+    transition: 1s;
+    transform: scale(1.5)
+}
